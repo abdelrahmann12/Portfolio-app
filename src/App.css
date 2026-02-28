@@ -1,0 +1,115 @@
+:root {
+  --background-color: #262a33;
+  --blue-background: #1e222b;
+  --gray-color: #9d9f9e;
+  --width: 600px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  padding-bottom: 50px;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  /* background-image: url(/public/dots.png); */
+
+  .layer {
+    position: absolute;
+    inset: 0;
+    background-image: url("/src/assets/images/noise.png");
+    opacity: 0.03;
+    pointer-events: none;
+  }
+}
+.header {
+  background-color: var(--blue-background);
+  width: var(--width);
+  margin: 30px auto;
+  border-radius: 8px;
+}
+.navbar {
+  padding: 15px;
+  margin: 0 auto;
+  width: var(--width);
+  color: white;
+}
+
+.hero {
+  width: var(--width);
+  padding: 15px;
+  margin: 30px auto;
+  background-color: var(--blue-background);
+}
+
+.projects {
+  width: var(--width);
+  padding: 15px;
+  margin: 30px auto;
+  background-color: var(--blue-background);
+}
+
+.skills {
+  width: var(--width);
+  background-color: var(--blue-background);
+  margin: 0 auto;
+}
+
+.contact {
+  width: var(--width);
+  background-color: var(--blue-background);
+  text-align: center;
+  margin: 30px auto;
+}
+
+footer {
+  width: var(--width);
+  background-color: var(--blue-background);
+  text-align: center;
+  margin: 30px auto;
+}
+
+.exper {
+  width: var(--width);
+  background-color: var(--blue-background);
+  margin: 30px auto;
+}
+
+.education {
+  width: var(--width);
+  background-color: var(--blue-background);
+  margin: 30px auto;
+}
+
+.services {
+  width: var(--width);
+  background-color: var(--blue-background);
+  margin: 30px auto;
+}
+
+.achievements {
+  width: var(--width);
+  background-color: var(--blue-background);
+  margin: 30px auto;
+}
+
+.testimonials {
+  width: var(--width);
+  background-color: var(--blue-background);
+  margin: 30px auto;
+}
+
+.about {
+  width: var(--width);
+  background-color: var(--blue-background);
+  margin: 30px auto;
+}
