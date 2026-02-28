@@ -54,12 +54,8 @@ export default function Home() {
       {/* Hero */}
       <section className="hero flex items-center justify-center flex-col gap-2">
         <div className="image w-full flex justify-center">
-  <img
-    src="/src/assets/images/myPhoto.jpeg"
-    alt="Abdelrahman Emam"
-    className="w-30 h-30 object-cover rounded-full border-4 border-orange-500 shadow-xl"
-  />
-</div>
+          <img src="/public/logo.svg" alt="logo img" className="w-fit" />
+        </div>
         <div className="info text-center">
           <span className=" text-amber-50">@abdelrahman</span>
           <h1 className="text-white text-2xl">Abdelrahman Emam</h1>
