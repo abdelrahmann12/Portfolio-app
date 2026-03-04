@@ -1,7 +1,7 @@
 
 export default function Experincee() {
   return (
-    <div className="exper px-6! py-12! max-w-6xl mx-auto">
+    <div className="exper px-6! py-12! max-w-6xl mx-auto lg:w-[600px]">
       <div className="cards grid gap-8 md:grid-cols-1">
         <div className="exp-card rounded-xl shadow-lg p-6! hover:shadow-xl transition-shadow duration-300">
           <div className="date text-sm text-orange-400 mb-3!">

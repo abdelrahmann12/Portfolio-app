@@ -3,7 +3,7 @@ import { FaGraduationCap } from "react-icons/fa";
 
 export default function Education() {
   return (
-    <div className="education px-6! py-12! max-w-6xl! mx-auto!">
+    <div className="education px-6! py-12! max-w-6xl! mx-auto! lg:w-[600px]">
         
       <div className="cards grid gap-8 md:grid-cols-1">
         <div className="edu-card relative rounded-xl shadow-lg p-6! hover:shadow-xl transition-shadow duration-300 border-l-4 border-orange-400">

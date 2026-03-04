@@ -14,7 +14,7 @@ export default function Projects() {
   return (
     <>
     <Header></Header>
-    <section className="projects rounded-xl !">
+    <section className="projects rounded-xl ! lg:w-[600px]">
       <section className="py-10">
         <h2 className="text-2xl font-bold text-orange-500 mb-6!">Projects</h2>
         <div className="flex flex-col gap-4">

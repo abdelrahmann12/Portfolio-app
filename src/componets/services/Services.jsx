@@ -18,7 +18,7 @@ export default function Services() {
   ];
 
   return (
-    <div className="services bg-[#0f172a] py-16! px-6! rounded-xl">
+    <div className="services bg-[#0f172a] py-16! px-6! rounded-xl lg:w-[600px]">
       <div className="max-w-6xl mx-auto">
         
         {/* Title */}

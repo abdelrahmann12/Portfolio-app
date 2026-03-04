@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0f172a] py-16! px-6! rounded-xl">
+    <footer className="bg-[#0f172a] py-16! px-6! rounded-xl lg:w-[600px]">
       <div className="max-w-5xl mx-auto text-center">
         {/* Logo / Name */}
         <h2 className="text-2xl font-semibold text-orange-500 mb-6!">

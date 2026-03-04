@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="contact p-5!">
+    <div className="contact p-5! lg:w-[600px]">
       <div className="info">
         <h3 className="text-white text-3xl">
           Let’s create <br></br> something together!

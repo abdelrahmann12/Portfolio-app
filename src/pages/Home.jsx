@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="hero flex items-center justify-center flex-col gap-2">
+      <section className="hero flex items-center justify-center flex-col gap-2 lg:w-[600px]">
         <div className="image w-full flex justify-center">
           <img src="/logo.svg" alt="logo img" className="w-fit" />
         </div>
@@ -115,7 +115,7 @@ export default function Home() {
         </div>
       </section>
       <Education></Education>
-      <div className="about px-6! py-12! max-w-6xl! mx-auto!">
+      <div className="about px-6! py-12! max-w-6xl! mx-auto! lg:w-[600px]">
         <div className="cards grid gap-8 md:grid-cols-1">
           <div className="about-card rounded-xl shadow-lg p-6! hover:shadow-xl transition-shadow duration-300">
             {/* Label */}
@@ -149,7 +149,7 @@ export default function Home() {
       </div>
       {/* skills section */}
 
-      <div className="skills bg-[#0f172a] py-16! px-6!">
+      <div className="skills bg-[#0f172a] py-16! px-6! lg:w-[600px]">
         <div className="max-w-6xl mx-auto">
           {/* Title */}
           <div className="mb-12">
@@ -188,7 +188,7 @@ export default function Home() {
       {/*  */}
       <Services></Services>
       {/* projects section */}
-      <section className="projects rounded-xl ">
+      <section className="projects rounded-xl lg:w-[600px] ">
         <section className="py-10!">
           <h2 className="text-2xl font-bold text-orange-500 mb-6!">Projects</h2>
           <div className="flex flex-col gap-4">

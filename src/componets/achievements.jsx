@@ -1,6 +1,6 @@
 export default function Achievements() {
   return (
-    <div className="achievements px-6! py-12! max-w-6xl! mx-auto!">
+    <div className="achievements px-6! py-12! max-w-6xl! mx-auto! lg:w-[600px]">
       <div className="cards grid gap-8 md:grid-cols-1">
         
         <div className="ach-card rounded-xl shadow-lg p-6! hover:shadow-xl transition-shadow duration-300">

@@ -8,7 +8,7 @@ export default function Contactt() {
         title="Contact"
         para="Whether youre interested in working together on a new project, have questions about my services, or just want to say hello, I d love to hear from you."
       ></Header>
-      <div className=" contact  mx-auto mt-12! p-8! rounded-xl shadow-lg">
+      <div className=" contact  mx-auto mt-12! p-8! rounded-xl shadow-lg lg:w-[600px]">
         {/* Name Input */}
         <div className="mb-4!">
           <label className="block text-gray-400 mb-1! text-start" htmlFor="name">

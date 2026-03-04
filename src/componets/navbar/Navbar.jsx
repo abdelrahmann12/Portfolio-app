@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <div className="navbar flex gap-6 items-center justify-center rounded-xl">
+      <div className="navbar flex gap-6 items-center justify-center rounded-xl lg:w-[600px]">
         <Tooltip title="Home">
           <IconButton onClick={()=>navigate("/")}>
             <House color="white" />
