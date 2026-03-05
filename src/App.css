@@ -40,76 +40,51 @@ main {
 .navbar {
   padding: 15px;
   margin: 0 auto;
-  /* width: var(--width); */
   color: white;
 }
 
 .hero {
-  /* width: var(--width); */
+  
   padding: 15px;
   margin: 30px auto;
   background-color: var(--blue-background);
 }
 
 .projects {
-  /* width: var(--width); */
+
   padding: 15px;
   margin: 30px auto;
   background-color: var(--blue-background);
 }
 
 .skills {
-  /* width: var(--width); */
+  
   background-color: var(--blue-background);
   margin: 0 auto;
 }
 
 .contact {
-  /* width: var(--width); */
+
   background-color: var(--blue-background);
   text-align: center;
   margin: 30px auto;
 }
 
 footer {
-  /* width: var(--width); */
   background-color: var(--blue-background);
   text-align: center;
   margin: 30px auto;
 }
 
-.exper {
-  /* width: var(--width); */
+.exper,.education,.services,.achievements,.testimonials,.about {
   background-color: var(--blue-background);
   margin: 30px auto;
 }
 
-.education {
-  /* width: var(--width); */
-  background-color: var(--blue-background);
-  margin: 30px auto;
-}
 
-.services {
-  /* width: var(--width); */
-  background-color: var(--blue-background);
-  margin: 30px auto;
-}
 
-.achievements {
-  /* width: var(--width); */
-  background-color: var(--blue-background);
-  margin: 30px auto;
-}
 
-.testimonials {
-  /* width: var(--width); */
-  background-color: var(--blue-background);
-  margin: 30px auto;
-}
 
-.about {
-  /* width: var(--width); */
-  background-color: var(--blue-background);
-  margin: 30px auto;
-}
+
+
+
